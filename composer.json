@@ -1,0 +1,27 @@
+{
+    "name": "tiojobs/ds-php",
+    "description": "PHP Data Structure Examples",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tiojobs\\DsPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tio Jobs",
+            "email": "icarojobsoficial@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    }
+}
